@@ -126,7 +126,7 @@ set softtabstop=4
 set smarttab
 
 set lbr
-set tw=80
+set tw=100
 
 set ai "Auto indent
 set si "Smart indet
@@ -321,6 +321,6 @@ au FileType tex set spell
 " => C Section
 """"""""""""""""""""""""""""
 
-au FileType c,cpp set tabstop=8
-au FileType c,cpp set softtabstop=8
-au FileType c,cpp set shiftwidth=8
+au FileType c,cpp set tabstop=4
+au FileType c,cpp set softtabstop=4
+au FileType c,cpp set shiftwidth=4
